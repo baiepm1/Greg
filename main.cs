@@ -22,10 +22,10 @@ public class twoDAnimationController : MonoBehaviour
     void Update()
     {
         //get key input from player
-        bool forwardPressed = Input.GetKey("w");
-        bool leftPressed = Input.GetKey("a");
-        bool rightPressed = Input.GetKey("d");
-        bool runPressed = Input.GetKey("left shift");
+        //bool forwardPressed = Input.GetKey("w");
+        //bool leftPressed = Input.GetKey("a");
+        //bool rightPressed = Input.GetKey("d");
+        //bool runPressed = Input.GetKey("left shift");
 
         //if player presses forward, increase velocity in z direction (forward)
         if (forwardPressed && velocityZ < 0.5f && !runPressed)
